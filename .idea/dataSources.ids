@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="new" uuid="d086ba94-0255-4147-8b32-618453f3efe0">
+    <database-info product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="population" schema="" catalog="" type="TABLE">
+      <column name="city" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="state" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="population" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="regions" schema="" catalog="" type="TABLE">
+      <column name="city" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="region" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+  <data-source source="LOCAL" name="cars" uuid="6c3d7599-730f-46cb-b14b-f93186b1bda9">
+    <database-info product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="inventory" schema="" catalog="" type="TABLE">
+      <column name="make" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="model" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="qty" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="orders" schema="" catalog="" type="TABLE">
+      <column name="make" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="model" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="order_date" sqlType="TEXT" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+  <data-source source="LOCAL" name="newnum" uuid="cfbf68ef-2a7f-4eeb-830a-a18ed0ebccef">
+    <database-info product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="nums" schema="" catalog="" type="TABLE">
+      <column name="nums" sqlType="INT" precision="2000000000" scale="10" nullable="true" jdbcType="4"/>
+    </table>
+  </data-source>
+</component>
