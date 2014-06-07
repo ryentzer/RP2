@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="446293034">
+    <data-source source="LOCAL" name="new" uuid="d086ba94-0255-4147-8b32-618453f3efe0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/SQL/new.db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="cars" uuid="6c3d7599-730f-46cb-b14b-f93186b1bda9">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/SQL/cars.db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="newnum" uuid="cfbf68ef-2a7f-4eeb-830a-a18ed0ebccef">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/SQL/randNumApp/newnum.db</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
